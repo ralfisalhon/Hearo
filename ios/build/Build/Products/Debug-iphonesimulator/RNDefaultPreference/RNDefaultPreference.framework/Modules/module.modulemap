@@ -1,0 +1,6 @@
+framework module RNDefaultPreference {
+  umbrella header "RNDefaultPreference-umbrella.h"
+
+  export *
+  module * { export * }
+}

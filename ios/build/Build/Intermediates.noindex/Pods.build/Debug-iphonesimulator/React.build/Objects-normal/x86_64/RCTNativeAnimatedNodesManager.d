@@ -1,0 +1,49 @@
+dependencies: \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.m \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/React.build/module.modulemap \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/ios/Pods/Target\ Support\ Files/React/React-prefix.pch \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTViewManager.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/yoga.build/module.modulemap \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/ios/Pods/Target\ Support\ Files/yoga/yoga-umbrella.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAdditionAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDivisionAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTEventAnimation.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTFrameAnimation.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTDecayAnimation.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTInterpolationAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTModuloAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTSpringAnimation.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTSubtractionAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTransformAnimatedNode.h \
+  /Users/ralfisalhon/Desktop/Transcript/Hearo/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.h

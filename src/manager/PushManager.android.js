@@ -1,0 +1,57 @@
+/*
+ * Copyright (c) 2011-2018, Zingaya, Inc. All rights reserved.
+ * From https://github.com/voximplant/react-native-demo/tree/master/src/manager
+ */
+
+'use strict';
+
+import React from 'react';
+
+import LoginManager from './LoginManager';
+
+import FCM, {FCMEvent} from 'react-native-fcm';
+
+class PushManager {
+    pushToken = null;
+
+    constructor() { }
+
+    init() {
+        FCM.on(FCMEvent.RefreshToken, (token) => {
+            console.log("Refresh token: " + token);
+        });
+        FCM.on(FCMEvent.Notification, async (notif) => {
+            console.log("PushManager: FCM: notification: " + notif.voximplant);
+            let remoteData = {};
+            remoteData.voximplant = notif.voximplant;
+            LoginManager.getInstance().pushNotificationReceived(remoteData);
+        });
+
+        FCM.getFCMToken()
+            .then(token => {
+                console.log(token);
+                this.pushToken = token;
+            })
+            .catch(() => {
+               console.warn('PushManager android: failed to get FCM token');
+            });
+    }
+
+    getPushToken() {
+        return this.pushToken;
+    }
+
+    showLocalNotification(from) {
+        FCM.presentLocalNotification({
+            title: 'Incoming call',
+            body: 'from:' + from,
+            priority: "high",
+            show_in_foreground: false,
+            icon: 'ic_vox_notification',
+            number: 10
+        });
+    }
+}
+
+const pushManager = new PushManager();
+export default pushManager;
